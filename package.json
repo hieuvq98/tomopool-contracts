@@ -1,0 +1,32 @@
+{
+  "name": "tomopool-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test --typecheck",
+    "build": "hardhat compile"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieuvq98/tomopool-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieuvq98/tomopool-contracts/issues"
+  },
+  "homepage": "https://github.com/hieuvq98/tomopool-contracts#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@types/chai": "^4.3.6",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.6.0",
+    "chai": "^4.3.8",
+    "hardhat": "^2.17.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
