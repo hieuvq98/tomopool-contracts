@@ -10,6 +10,15 @@ const config: HardhatUserConfig = {
         runs: 1000,
       },
     },
+  },
+  paths: {
+    artifacts: './artifacts',
+    cache: './cache',
+    sources: './contracts',
+    tests: './tests',
+  },
+  mocha: {
+    timeout: 60000
   }
 };
 
